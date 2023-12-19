@@ -97,13 +97,13 @@ export const mainListItems = (
 
 
     <ListItemButton>
-      
-      <a href="/" style={{textDecoration:"none", color:"white"}}>
+      <Link to='/' style={{textDecoration: "none", color: "white"}}>
       <ListItemIcon>
       <i style={{ color: 'deeppink'}}>
         <MailIcon height='auto' width='1.8em'/>
       </i>
-      </ListItemIcon>Contact</a>
+      </ListItemIcon>
+        Contact</Link>
     </ListItemButton>
 
   </React.Fragment>
