@@ -261,7 +261,7 @@ export default function Dashboard() {
                   
                   
                   button1="View All Skills & Certifications"
-                  link="/skills"
+                  link="#/skills"
                 />
                 <br></br>
                 <Confetti />
@@ -356,7 +356,7 @@ export default function Dashboard() {
                   description=""
                   
                   button1="See All Projects"
-                  link="/projects"
+                  link="#/projects"
                 />
                 
               </Grid>
