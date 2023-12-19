@@ -98,7 +98,7 @@ export const mainListItems = (
 
     <ListItemButton>
       
-      <a href="https://vaibzi.github.io/Portfolio/#/#contact" style={{textDecoration:"none", color:"white"}}>
+      <a href="/" style={{textDecoration:"none", color:"white"}}>
       <ListItemIcon>
       <i style={{ color: 'deeppink'}}>
         <MailIcon height='auto' width='1.8em'/>
