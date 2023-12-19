@@ -155,14 +155,14 @@ export function WebDevLineChart() {
 
 
 
-        '.css-1k2u9zb-MuiChartsAxis-root .MuiChartsAxis-tickLabel': {  
+        '.css-34hspi .MuiChartsAxis-tickLabel': {  
           fill : "white"
         },
-        '.css-1k2u9zb-MuiChartsAxis-root .MuiChartsAxis-tick' : {
+        '.css-34hspi .MuiChartsAxis-tick' : {
           fill :'white',
           stroke : 'white'
         },
-        '.css-1k2u9zb-MuiChartsAxis-root .MuiChartsAxis-line':{
+        '.css-34hspi .MuiChartsAxis-line':{
           stroke: 'white'
         },
         '.MuiChartsLegend-series tspan':{
