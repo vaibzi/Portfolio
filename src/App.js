@@ -10,9 +10,9 @@ export default function App() {
     <div className="App"> 
         <HashRouter>
         <Routes>
-          <Route path="/Portfolio" element={<Dashboard />} />
-          <Route path="/Porfolio/projects" element={<Projects />} />
-          <Route path="/Portfolio/skills" element={<Skills />} />
+          <Route path="/" element={<Dashboard />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/skills" element={<Skills />} />
 
           
         </Routes>
