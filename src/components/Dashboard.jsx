@@ -218,7 +218,7 @@ export default function Dashboard() {
             
 
               {/* Chart */}
-              <Grid item xs={12} md={8} lg={6}>
+              <Grid item xs={12} md={8} lg={6} mt={5}>
               {/* Container 1, that contains chart  */}
                 <Paper 
                   sx={{
@@ -248,7 +248,7 @@ export default function Dashboard() {
                 </Paper>
               </Grid>
 
-              <Grid item xs={12} md={4} lg={3} >
+              <Grid item xs={12} md={4} lg={3} mt={5} >
               
                 <CardWithPhoto 
                   img={skillsPhoto}
@@ -267,7 +267,7 @@ export default function Dashboard() {
                 <Confetti />
               </Grid>
 
-              <Grid item xs={12} md={4} lg={3} >
+              <Grid item xs={12} md={4} lg={3} mt={5} >
               
                 <CardWithPhoto 
                   img={DP}
