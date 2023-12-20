@@ -1,5 +1,5 @@
-#Portfolio Webiste Built on React.js
-#- NPM install
+# Portfolio Webiste Built on React.js
+# - NPM install
 Link -> https://vaibzi.github.io/Portfolio/#/
 
 
