@@ -73,7 +73,7 @@ export function CardWithPhoto(props) {
 
       <CardActions>
       
-      <Button color="secondary" href={props.link} >{props.button1}</Button>
+      <Button color="secondary" href={props.link} target="_blank">{props.button1}</Button>
         {/* <Button size="small">{props.button2}</Button> */}
       </CardActions>
     </Card>
