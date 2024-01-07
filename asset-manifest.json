@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/Portfolio/static/js/main.9bd89526.js",
+    "main.js": "/Portfolio/static/js/main.d98bc287.js",
     "static/media/Legilimens.png": "/Portfolio/static/media/Legilimens.68179a139c74851dbd7e.png",
     "static/media/Webdeck.png": "/Portfolio/static/media/Webdeck.b7da6b5672068bf56b38.png",
     "static/media/Efficienti.png": "/Portfolio/static/media/Efficienti.7a1de0dd6a1e3353068f.png",
@@ -43,9 +43,9 @@
     "static/media/Times.png": "/Portfolio/static/media/Times.9d26d03b5a931569e693.png",
     "static/media/Nptel.png": "/Portfolio/static/media/Nptel.0d3ebaf3bebcc1668568.png",
     "index.html": "/Portfolio/index.html",
-    "main.9bd89526.js.map": "/Portfolio/static/js/main.9bd89526.js.map"
+    "main.d98bc287.js.map": "/Portfolio/static/js/main.d98bc287.js.map"
   },
   "entrypoints": [
-    "static/js/main.9bd89526.js"
+    "static/js/main.d98bc287.js"
   ]
 }
