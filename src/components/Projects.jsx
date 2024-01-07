@@ -253,7 +253,7 @@ export default function Projects() {
                   description4="Bootstrap, JavaScipt, CSS, HTML"
                   skillscolor ="#A9B388"
                   button1="LINK"
-                  link="https://efficientifrontend.vanshagg2003.repl.co/"
+                  link="https://efficienti.onrender.com/"
               />
               </Grid>
 
