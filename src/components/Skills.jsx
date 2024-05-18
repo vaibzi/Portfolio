@@ -16,8 +16,8 @@ import Link from "@mui/material/Link";
 import MenuIcon from "@mui/icons-material/Menu";
 import { mainListItems} from "./listItems";
 
-import { SimpleBarChart, WebDevLineChart, ProgrammingLineChart, CoreLineChart, ProgBarChart } from "./Charts";
-import { WebDevSkillsCard, ProgrammingSkillsCard, CoreSkillsCard } from "./Card";
+import { SimpleBarChart, WebDevLineChart, ProgrammingLineChart, CoreLineChart, ProgBarChart, AILineChart, AIBarChart } from "./Charts";
+import { WebDevSkillsCard, ProgrammingSkillsCard, CoreSkillsCard, AISkillsCard } from "./Card";
 import Certificates from "./Certificates";
 
 // For Copyright at page bottom
@@ -185,7 +185,7 @@ export default function Skills() {
             backgroundColor: (theme) =>
               theme.palette.mode === "dark"
                 ? theme.palette.grey[100]
-                : theme.palette.grey[900],
+                : " #191919 ",
             flexGrow: 1,
             height: "100vh",
             overflow: "auto",
@@ -194,7 +194,23 @@ export default function Skills() {
           <Toolbar />
           <Container maxWidth="lg" sx={{ mt: 4, mb: 4, }}>
           {/* Parent  */}
+         
+            
             <Grid container spacing={3}> 
+
+
+            {/* First Row  */}
+            <Grid item xs={12} md={8} lg={5} mt={4} mb={2}>
+                <AISkillsCard />
+              </Grid>
+
+
+              <Grid item xs={12} md={4} lg={7} mt={2} mb={7} >
+              <AILineChart />
+              <AIBarChart />
+              </Grid>
+              
+              {/* Second Row  */}
               {/* Chart */}
               
               <Grid item xs={12} md={8} lg={5} mt={4} mb={2}>
@@ -205,18 +221,11 @@ export default function Skills() {
               <Grid item xs={12} md={4} lg={7} mt={2} mb={7} >
               <WebDevLineChart />
               <SimpleBarChart />
-
-
-
-
               </Grid>
               
 
-              
 
-
-
-                {/* SECOND ROW  */}
+                {/* Third ROW  */}
 
 
                 <Grid item xs={12} md={8} lg={5} mt={4} mb={2}>
@@ -231,7 +240,7 @@ export default function Skills() {
                 </Grid>
 
 
-            {/* THIRD ROW  */}
+            {/* fouth ROW  */}
                 <Grid item xs={12} md={8} lg={5} mt={4} mb={2}>
                 <CoreSkillsCard />
                 </Grid>
@@ -240,7 +249,7 @@ export default function Skills() {
                 <CoreLineChart />  
                 </Grid>
 
-            {/* FOURTH  */}
+            {/* FIFTH  */}
             <Grid item xs={12} md={4} lg={12} mt={10} mb={7} >
                 <Certificates />  
                 </Grid>
