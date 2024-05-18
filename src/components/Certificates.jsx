@@ -12,6 +12,9 @@ import TableRow from "@mui/material/TableRow";
 import Nptel from "../img/Nptel.png"
 import Times from "../img/Times.png"
 import nvidia from "../img/nvidia.jpg"
+import SanDiego from "../img/SanDiego.png"
+import Udemy from "../img/Udemy.png"
+
 
 
 
@@ -35,6 +38,28 @@ const rows = [
   ),
   createData(
     1,
+    "2024",
+    <i>
+    <img alt="not found" src={SanDiego} width="25"  
+    />     UC SanDiego : Internet of Things
+    </i>,
+    <a href="https://www.coursera.org/account/accomplishments/verify/M6X6927E83SW" target="_blank">View</a>
+    
+   
+  ),
+  createData(
+    2,
+    "2024",
+    <i>
+    <img alt="not found" src={Nptel} width="25"  
+    />     Nptel : Introduction to Internet of Things 
+    </i>,
+    <a href="https://drive.google.com/file/d/1wbGpEmrTI51RuyLCW-moE_mtkq5njAQp/view?usp=sharing" target="_blank">View</a>
+    
+   
+  ),
+  createData(
+    3,
     "2023",
     <i>
     <img alt="not found" src={Nptel} width="25"  
@@ -45,7 +70,7 @@ const rows = [
    
   ),
   createData(
-    2,
+    4,
     "2023",
     <i>
     <img alt="not found" src={Nptel} width="25"  
@@ -57,7 +82,19 @@ const rows = [
     
   ),
   createData(
-    3,
+    5,
+    "2023",
+    <i>
+    <img alt="not found" src={Udemy} width="25"  
+    />    Udemy : Web Development Bootcamp by Angela Yu
+    </i>,
+    <a href="https://www.udemy.com/certificate/UC-0ac23cdf-5703-49e8-9f39-fa32e5b99490/" target="_blank">View</a>
+  
+    
+    
+  ),
+  createData(
+    6,
     "2018",
     <i>
     <img alt="not found" src={Times} width="25"  

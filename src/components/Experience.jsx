@@ -28,22 +28,8 @@ const rows = [
     <img alt="not found" src={Navo} width="25"  
     />     Navodita Infotech 
     </i>,
-    "C++ Programming Intern",
-    
-   
-  ),
-  createData(
-    1,
-    "Dec 2023",
-    <i>
-    <img alt="not found" src={Cod} width="25"  
-    />     Codsoft 
-    </i>,
-  
-    "Web Development Intern",
-    
-  ),
-  
+    "Software Engineering Intern (C++, React.js)",
+  )
 ];
 
 // function preventDefault(event) {
@@ -53,13 +39,13 @@ const rows = [
 export default function Experience() {
   return (
     <React.Fragment>
-      <h1 style={{ color: 'white' }}>Experience</h1>
+      <h1 style={{ color: 'black' }}>Experience</h1>
       <Table size="small" >
         <TableHead >
           <TableRow >
-            <TableCell style={{ color: 'grey', fontWeight: 'bolder' }}>Year</TableCell>
-            <TableCell style={{ color: 'grey', fontWeight: 'bolder' }} >Organization</TableCell>
-            <TableCell style={{ color: 'grey', fontWeight: 'bolder' }} >Role</TableCell>
+            <TableCell style={{ color: 'black', fontWeight: 'bolder' }}>Year</TableCell>
+            <TableCell style={{ color: 'black', fontWeight: 'bolder' }} >Organization</TableCell>
+            <TableCell style={{ color: 'black', fontWeight: 'bolder' }} >Role</TableCell>
             </TableRow>
         </TableHead>
         <TableBody >

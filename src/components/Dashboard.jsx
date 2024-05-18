@@ -3,7 +3,7 @@ import { styled, createTheme, ThemeProvider } from "@mui/material/styles";
 import  { ProfilesCard,CardWithPhoto, ContactCard } from "./Card";
 
 //PHOTOS
-import DP from '../img/DP.jpg'
+import DP from '../img/DP.png'
 import Resume from '../img/Resume.png'
 import ProjectLogo from '../img/ProjectsLogo.png'
 import skillsPhoto from '../img/react.jpg'
@@ -67,7 +67,7 @@ const AppBar = styled(MuiAppBar, {
     duration: theme.transitions.duration.leavingScreen,
   }),
   ...(open && { //When open
-    background: 'linear-gradient(45deg, #FF8E53 10%, #FE6B8B 90%)',
+    background: 'linear-gradient(35deg, #EE4E4E 10%, #FE6B8B 95%)',
     marginLeft: drawerWidth,
     width: `calc(100% - ${drawerWidth}px)`,
     transition: theme.transitions.create(["width", "margin"], {
@@ -92,7 +92,7 @@ const Drawer = styled(MuiDrawer, {
     }),
     boxSizing: "border-box",
     ...(!open && {
-      background: 'linear-gradient(45deg, #FF8E53 10%, #FE6B8B 90%)',
+      background: 'linear-gradient(75deg, #EE4E4E 10%, #FE6B8B 95%)',
       color: 'white',
       overflowX: "hidden",
       transition: theme.transitions.create("width", {
@@ -180,7 +180,7 @@ export default function Dashboard() {
             }}
           >
 
-            <IconButton onClick={toggleDrawer} color="warning">
+            <IconButton onClick={toggleDrawer} color="error">
               
               <MenuIcon color='white' 
               />
@@ -205,7 +205,7 @@ export default function Dashboard() {
             backgroundColor: (theme) =>
               theme.palette.mode === "dark"
                 ? theme.palette.grey[100]
-                : theme.palette.grey[900],
+                : " #191919 ",
             flexGrow: 1,
             height: "100vh",
             overflow: "auto",
@@ -239,7 +239,7 @@ export default function Dashboard() {
                     p: 2,
                     display: "flex",
                     flexDirection: "column",
-                    backgroundColor: "#252A34 ",
+                    backgroundColor: "#373738",
                     // height: 240,
                   }}
 
@@ -315,7 +315,7 @@ export default function Dashboard() {
                     p: 2,
                     display: "flex",
                     flexDirection: "column",
-                    backgroundColor: "#579899"
+                    backgroundColor: "#524C42"
                     // height: 240,
                   }}
 
@@ -337,7 +337,7 @@ export default function Dashboard() {
                   description=""
                   
                   button1="Download Resume"
-                  link="https://drive.google.com/file/d/1sftmttmVn4sGZ2B74rW0bEwENcoaVMYr/view?usp=sharing"
+                  link="https://docs.google.com/document/d/1OE1YfUMDRXnWM6MUjCFSihkmXNyxk7bxYDtCNeaTl_c/edit?usp=sharing"
                 />
                 
               </Grid>
