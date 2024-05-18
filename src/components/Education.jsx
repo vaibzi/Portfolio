@@ -25,7 +25,7 @@ const rows = [
     />     Netaji Subhas University of Technology (NSUT), New Delhi
     </i>,
     "B.tech in Computer Science Engineering (Data Science)",
-    7.85,
+    8.03,
   ),
   createData(
     1,

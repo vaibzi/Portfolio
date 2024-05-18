@@ -15,6 +15,12 @@ import AssignmentIcon from "@mui/icons-material/Assignment";
 import { Link } from "react-router-dom";
 
 // IMAGES 
+import Regression from "../img/Regression.png"
+import Classification from "../img/Classification.png"
+import CNN from "../img/CNN.png"
+
+
+
 import OperatingSystems from "../img/OperatingSystem.png"
 import DBMS from "../img/DBMS.png"
 import ReactIcon from "../img/ReactIcon.png"
@@ -37,6 +43,8 @@ import Algo from "../img/Algo.png"
 import DataStructure from "../img/DataStructure.jpg"
 import BigData from "../img/BigData.png"
 import Bootstrap from "../img/Bootstrap.png"
+import LinkedinIcon from "../img/LinkedinIcon.png"
+
 
 import tinyml from "../img/tinyml.jpg"
 import R from "../img/R.png"
@@ -89,6 +97,14 @@ export const mainListItems = (
 
     </ListItemButton>
 
+    <ListItemButton>
+    <Link to='/linkedin' style={{textDecoration: "none", color: "white"}}>
+      <ListItemIcon>
+      <img alt="img not found" src={LinkedinIcon} width="25" 
+    />
+      </ListItemIcon>LinkedIn Posts</Link>
+
+    </ListItemButton>
 
     <ListItemButton>
     <Link to='' style={{textDecoration: "none", color: "white"}}>
@@ -146,7 +162,7 @@ export const ProfilesListItems = (
     <h2 style={{color: "white"}}> Profiles </h2>
     <ListItemButton>
     <img alt="img not found" src={LinkedIn} width="25" 
-    /><a href="https://www.linkedin.com/in/vaibyadavv/" target="_blank" style={{ color:"white", textDecoration: "none"}} > : linkedin.com/in/vaibyadavv</a>
+    /><a href="https://www.linkedin.com/in/vaibyadav/" target="_blank" style={{ color:"white", textDecoration: "none"}} > : linkedin.com/in/vaibyadav</a>
     </ListItemButton>
     
     <ListItemButton>
@@ -176,15 +192,37 @@ export const ContactListItems = (
     
     <ListItemButton>
     <img alt="img not found" src={LinkedIn} width="25"  
-    /><a href="https://www.linkedin.com/in/vaibyadavv/" target="_blank" style={{color:"white"}}>  :   linkedin.com/in/vaibyadavv/</a>
+    /><a href="https://www.linkedin.com/in/vaibyadav/" target="_blank" style={{color:"white"}}>  :   linkedin.com/in/vaibyadav/</a>
     </ListItemButton>
   </React.Fragment>
 );
 
+export const AISkillsItems = (
+
+  <React.Fragment>
+  <h2 style={{color: "#9575DE"}}> AI-ML Skills </h2>
+  <ListItemButton>
+  <img alt="img not found" src={Regression} width="25" 
+  /><a  style={{ color:"white", textDecoration: "none"}} > : Regression - Linear, Decision Trees, Random Forest, SVM</a>
+  </ListItemButton>
+  <ListItemButton>
+  <img alt="img not found" src={Classification} width="25" 
+  /><a  style={{ color:"white", textDecoration: "none"}} > : Classification - Image, Video, Audio</a>
+  </ListItemButton>
+  
+  <ListItemButton>
+  <img alt="img not found" src={CNN} width="45"  
+  /><a style={{color:"white", textDecoration: "none"}} >  :  CNN </a>
+  </ListItemButton>
+
+</React.Fragment>
+);
+
+
 export const WebDevSkillsItems = (
 
   <React.Fragment>
-  <h2 style={{color: "#9575DE"}}> Web Development Skills </h2>
+  <h2 style={{color: "#A1DD70"}}> Web Development Skills </h2>
   <ListItemButton>
   <img alt="img not found" src={next} width="25" 
   /><a  style={{ color:"white", textDecoration: "none"}} > : Next.js</a>
@@ -221,7 +259,7 @@ export const WebDevSkillsItems = (
 
   <ListItemButton>
   <img alt="img not found" src={CSS} width="25"  
-  /><a  style={{color:"white", textDecoration: "none"}} >  : CSS</a>
+  /><a  style={{color:"white", textDecoration: "none"}} >  : CSS, Tailwind CSS</a>
   </ListItemButton>
 
   <ListItemButton>
@@ -302,13 +340,13 @@ export const CoreSkillsItems = (
 
   <ListItemButton>
   <img alt="img not found" src={Multimedia} width="25"  
-  /><a  style={{color:"white", textDecoration: "none"}} >  :   Multimedia Analytics</a>
+  /><a  style={{color:"white", textDecoration: "none"}} >  :   Multimedia / Video Analytics</a>
   </ListItemButton>
 
-  <ListItemButton>
+  {/* <ListItemButton>
   <img alt="img not found" src={tinyml} width="25"  
   /><a  style={{color:"white", textDecoration: "none"}} >  :   TinyML</a>
-  </ListItemButton>
+  </ListItemButton> */}
 
   <ListItemButton>
   <img alt="img not found" src={EthicalHacking} width="25"  

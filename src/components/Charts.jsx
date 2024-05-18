@@ -3,6 +3,68 @@ import { BarChart } from '@mui/x-charts/BarChart';
 import { LineChart } from '@mui/x-charts/LineChart';
 import { ChartContainer } from '@mui/x-charts/ChartContainer';
 
+//AI BAR CHART
+const experienceDataAI = [2,2,1];
+const proficiencyDataAI = [4, 4, 2];
+const xLabelsAI = [
+  'Regresssion',
+  'Classification',
+  'CNN',
+  
+];
+
+export function AIBarChart() {
+  return (
+    <BarChart 
+      sx={{
+        // animation
+        "@keyframes width-increase3": {
+                    "0%": {
+                        // opacity: "0"
+                        transform: "scale(0.3) rotate(0deg) translateX(-30%) translateY(30%)",
+                        opacity: "0"
+                      },
+                      
+                    "100%": {
+                        // opacity: "100"
+                        transform: "scale(1) rotate(0deg) translateX(0%) translateY(0%)",
+                        opacity: "1"
+                    }
+                },
+                animation:  "width-increase3 2s ease ",  
+        
+        '.MuiChartsAxis-tickLabel ': {
+          
+          fill : "white"
+        },
+        '.MuiChartsAxis-tick' : {
+          fill :'white',
+          stroke : 'white'
+        },
+        '.MuiChartsAxis-line ':{
+          stroke: 'white'
+        },
+        '.MuiChartsLegend-series tspan':{
+          fill : 'white',
+        },
+        
+        }}
+
+      width={700}
+      height={270}
+      series={[
+        { data: proficiencyDataAI, label: 'Proficiency (0 to 4)', id: 'proficiencyId' },
+        { data: experienceDataAI, label: 'Experience (years)', id: 'experienceId' },
+      ]}
+     
+      xAxis={[{ data: xLabelsAI, scaleType: 'band' }]}
+    />
+  );
+}
+
+
+
+//WEB DEV BAR CHART
 const experienceData = [1,2, 2, 2, 1,1, 3, 3, 3 ];
 const proficiencyData = [1, 2, 2, 2, 3,4, 2, 3, 3 ];
 const xLabels = [
@@ -67,13 +129,13 @@ export function SimpleBarChart() {
 }
 
 //PROGRAMMING BAR CHART
-const Prog_proficiencyData = [2, 5, 1, 2,1];
+const Prog_proficiencyData = [2, 5, 1, 2];
 const Prog_xLabels = [
   'C',
   'C++',
-  'Java',
+  'JavaScript',
   'Python',
-  'R',
+  
   
 ];
 export function ProgBarChart() {
@@ -115,24 +177,19 @@ export function ProgBarChart() {
 }
 
 
-//LINE CHART
+
+
+//AI LINE CHART
 // const uData_LINE = [4000, 3000, 2000, 2780, 1890, 2390, 3490, 3553];
-const pData_WebDev = [0, 1, 5, 4, 2, 2, 4,4, 6];
-const xLabels_WebDev = [
-  'SQL',
-  'Bootstrap',
-  'CSS, HTML',
-  'MongoDB',
-  'Express.js',
-  'Node.js',
-  'React.js',
-  'Next.js',
-  'JavaScript',
+const pData_AI = [2, 3, 1];
+const xLabels_AI = [
+  'Regression',
+  'Classification',
+  'CNN',
   
 ];
 
-
-export function WebDevLineChart() {
+export function AILineChart() {
 
 
   return (
@@ -192,6 +249,95 @@ export function WebDevLineChart() {
 
         series={[
           
+            { data: pData_AI, label: 'pv', id: 'pvId',
+            label: 'No. of Projects',
+             },
+            
+        ]}
+        xAxis={[{ scaleType: 'point', data: xLabels_AI }]}
+    />
+  );
+}
+
+
+
+//Web dev LINE CHART
+// const uData_LINE = [4000, 3000, 2000, 2780, 1890, 2390, 3490, 3553];
+const pData_WebDev = [1, 1, 5, 4, 2, 2, 5,4, 6];
+const xLabels_WebDev = [
+  'R',
+  'Bootstrap',
+  'CSS, HTML',
+  'MongoDB',
+  'Express.js',
+  'Node.js',
+  'React.js',
+  'Next.js',
+  'JavaScript',
+  
+];
+
+
+export function WebDevLineChart() {
+
+
+  return (
+   
+    <LineChart
+        width={700}
+        height={250}
+        sx={{
+          // animation
+          "@keyframes width-increase3": {
+                    "0%": {
+                        // opacity: "0"
+                        transform: "scale(0.3) rotate(0deg) translateX(-30%) translateY(30%)",
+                        opacity: "0"
+                      },
+                    "100%": {
+                        // opacity: "100"
+                        transform: "scale(1) rotate(0deg) translateX(0%) translateY(0%)",
+                        opacity: "1"
+                    }
+                },
+                animation:  "width-increase3 2s ease ",  
+
+
+
+        '.css-34hspi .MuiChartsAxis-tickLabel': {  
+          fill : "white"
+        },
+        '.css-34hspi .MuiChartsAxis-tick' : {
+          fill :'white',
+          stroke : 'white'
+        },
+        '.css-34hspi .MuiChartsAxis-line':{
+          stroke: 'white'
+        },
+        '.MuiChartsLegend-series tspan':{
+          fill : 'white',
+        },
+
+        'rect.MuiChartsLegend-mark':{
+          fill : '#A1DD70',
+          // stroke : "red"
+        },
+        '.MuiLineElement-series-pvId': {
+          strokeDasharray: '5 5',
+          stroke: "#A1DD70"
+        },
+        
+      
+        '.MuiMarkElement-series-pvId' :{
+          stroke: "#A1DD70",
+          fill : "#A1DD70"
+        },
+        
+        
+        }}
+
+        series={[
+          
             { data: pData_WebDev, label: 'pv', id: 'pvId',
             label: 'No. of Projects',
              },
@@ -203,12 +349,13 @@ export function WebDevLineChart() {
 }
 
 
-const pData_Prog = [0, 5, 51, 320,];
+const pData_Prog = [0, 5, 51, 320, 490];
 const xLabels_Prog = [
   '2021',
   '2022',
   '2023',
   '2024',
+  'Present'
 ];
 
 export function ProgrammingLineChart() {
@@ -266,15 +413,15 @@ export function ProgrammingLineChart() {
 }
 
 
-const pData_Core = [0, 3, 3, 2, 1, 3,1, 4, 4];
+const pData_Core = [0, 4, 4, 3, 1, 3, 4, 4];
 const xLabels_Core = [
   'Hacking',
   'DBMS',
   'OS',
-  'Multimedia',
+  'Video Analytics',
   'BigData',
   'Compiler',
-  'TinyML',
+  
   'Algo',
   'DataStruc',
 ];
