@@ -1,22 +1,27 @@
 {
   "files": {
-    "main.js": "/Portfolio/static/js/main.e873828e.js",
+    "main.js": "/Portfolio/static/js/main.004db07d.js",
     "static/media/Legilimens.png": "/Portfolio/static/media/Legilimens.68179a139c74851dbd7e.png",
     "static/media/Webdeck.png": "/Portfolio/static/media/Webdeck.b7da6b5672068bf56b38.png",
     "static/media/Efficienti.png": "/Portfolio/static/media/Efficienti.7a1de0dd6a1e3353068f.png",
+    "static/media/AdaptYog.png": "/Portfolio/static/media/AdaptYog.211c326cae3c4dc128bb.png",
     "static/media/ProjectsLogo.png": "/Portfolio/static/media/ProjectsLogo.e16dd969493c64885717.png",
+    "static/media/Walmart.png": "/Portfolio/static/media/Walmart.cc24c8f7b2b61fca2b0c.png",
     "static/media/esp32photo.png": "/Portfolio/static/media/esp32photo.aa8b09e23d4cba6f41a6.png",
     "static/media/Gourfood.png": "/Portfolio/static/media/Gourfood.26bfb0c7040e994895bc.png",
-    "static/media/react.jpg": "/Portfolio/static/media/react.6ca7ab3d28ca9aab5c77.jpg",
-    "static/media/DP.jpg": "/Portfolio/static/media/DP.d838f034bb3e81c0358d.jpg",
+    "static/media/Dexter2.png": "/Portfolio/static/media/Dexter2.0d1cea5e2ea1ce0cab20.png",
+    "static/media/DP.png": "/Portfolio/static/media/DP.2ff44c0931dde3637a68.png",
+    "static/media/SanDiego.png": "/Portfolio/static/media/SanDiego.a1a9392111e9e7a180d1.png",
+    "static/media/PowerBi.png": "/Portfolio/static/media/PowerBi.875594d751ae02c52d7d.png",
     "static/media/ReactIcon.png": "/Portfolio/static/media/ReactIcon.81ed438b18e24116794d.png",
     "static/media/Python.png": "/Portfolio/static/media/Python.dea924d737bb84eb9ce3.png",
-    "static/media/Nsut.png": "/Portfolio/static/media/Nsut.4dc0eccbb5ffd5e315f2.png",
     "static/media/party.png": "/Portfolio/static/media/party.cabfdd5e6751854a1b66.png",
     "static/media/NodeIcon.png": "/Portfolio/static/media/NodeIcon.fc3bd1ec69d7a50e685a.png",
+    "static/media/Nsut.png": "/Portfolio/static/media/Nsut.79ae6d3c555c7d51b123.png",
     "static/media/SQL.png": "/Portfolio/static/media/SQL.1881f32ef4e0ce53321d.png",
+    "static/media/Resume.png": "/Portfolio/static/media/Resume.a369059229df9eb5c188.png",
+    "static/media/react.jpg": "/Portfolio/static/media/react.b6f857391f11fec2d73a.jpg",
     "static/media/gmail.png": "/Portfolio/static/media/gmail.25768890125ebfb14597.png",
-    "static/media/Resume.png": "/Portfolio/static/media/Resume.06838ab4e68f63d550d1.png",
     "static/media/DataStructure.jpg": "/Portfolio/static/media/DataStructure.74378566c3ceb9cd2171.jpg",
     "static/media/Bootstrap.png": "/Portfolio/static/media/Bootstrap.f132cb791703420e69ca.png",
     "static/media/Gfg.png": "/Portfolio/static/media/Gfg.a3b2d4b1e824964bf2fc.png",
@@ -26,15 +31,18 @@
     "static/media/ExpressIcon.png": "/Portfolio/static/media/ExpressIcon.fe1eec364f69de4ba3f1.png",
     "static/media/Algo.png": "/Portfolio/static/media/Algo.229c037303c7032fd73c.png",
     "static/media/StartupPrediction.png": "/Portfolio/static/media/StartupPrediction.e75742560c28b426bbd3.png",
+    "static/media/Regression.png": "/Portfolio/static/media/Regression.080e795472926b0fef1f.png",
     "static/media/Multimedia.png": "/Portfolio/static/media/Multimedia.53f3de339f141c1939e9.png",
     "static/media/Java.png": "/Portfolio/static/media/Java.ddf8676bd569fe01ab44.png",
     "static/media/Linkedin.png": "/Portfolio/static/media/Linkedin.43421361e08effbb0c23.png",
+    "static/media/LinkedinIcon.png": "/Portfolio/static/media/LinkedinIcon.f71b6681b884a45e67c0.png",
     "static/media/CSS.png": "/Portfolio/static/media/CSS.1f5b0b71967c96eb5b7c.png",
     "static/media/CPP.png": "/Portfolio/static/media/CPP.24a8f93854ab092f17a7.png",
     "static/media/C.png": "/Portfolio/static/media/C.d083731589e745941c43.png",
     "static/media/next.png": "/Portfolio/static/media/next.48ddc8121a0fcb543d64.png",
     "static/media/Compiler.png": "/Portfolio/static/media/Compiler.39e7585b2f2a78bd7d05.png",
     "static/media/Navo.png": "/Portfolio/static/media/Navo.6dc05a506d6de8e1ab51.png",
+    "static/media/Classification.png": "/Portfolio/static/media/Classification.50382ffca7c3c1c204ce.png",
     "static/media/OperatingSystem.png": "/Portfolio/static/media/OperatingSystem.27cb538242cae70fb405.png",
     "static/media/tinyml.jpg": "/Portfolio/static/media/tinyml.f57a2a29ebbe82524784.jpg",
     "static/media/JavaScript.png": "/Portfolio/static/media/JavaScript.17b8259b333156d4ef4a.png",
@@ -48,9 +56,9 @@
     "static/media/Times.png": "/Portfolio/static/media/Times.9d26d03b5a931569e693.png",
     "static/media/Nptel.png": "/Portfolio/static/media/Nptel.0d3ebaf3bebcc1668568.png",
     "index.html": "/Portfolio/index.html",
-    "main.e873828e.js.map": "/Portfolio/static/js/main.e873828e.js.map"
+    "main.004db07d.js.map": "/Portfolio/static/js/main.004db07d.js.map"
   },
   "entrypoints": [
-    "static/js/main.e873828e.js"
+    "static/js/main.004db07d.js"
   ]
 }
