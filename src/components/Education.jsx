@@ -25,7 +25,7 @@ const rows = [
     />     Netaji Subhas University of Technology (NSUT), New Delhi
     </i>,
     "B.tech in Computer Science Engineering (Data Science)",
-    8.03,
+    8.16,
   ),
   createData(
     1,
@@ -35,7 +35,7 @@ const rows = [
     />     St. Mary's School, Dwarka, New Delhi 
     </i>,
     "CBSE, Class XII",
-    95.5
+    95
   ),
   createData(
     2,
