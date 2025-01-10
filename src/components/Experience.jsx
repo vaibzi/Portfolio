@@ -9,8 +9,8 @@ import TableRow from "@mui/material/TableRow";
 // import { BlogIcon, DocIcon, MailIcon, ProfileIcon } from "./Icons"
 // import ListItemIcon from "@mui/material/ListItemIcon";
 
-import Navo from '../img/Navo.png';
-import Cod from '../img/Codsoft.png';
+import dunn from '../img/dunn.png';
+import nsit from '../img/Nsut.png';
 
 
 
@@ -23,27 +23,22 @@ function createData(id, year, name, post, ) {
 const rows = [
   createData(
     0,
-    "Jan 2024",
+    "Jan 2025",
     <i>
-    <img alt="not found" src={Navo} width="25"  
-    />     Navodita Infotech 
+    <img alt="not found" src={dunn} width="25"  
+    />     Dunnhumby
     </i>,
-    "C++ Programming Intern",
-    
-   
+    "Software Engineering Intern (Tesco Retail & Media)",
   ),
   createData(
     1,
-    "Dec 2023",
+    "May 2024 - Jan 2025",
     <i>
-    <img alt="not found" src={Cod} width="25"  
-    />     Codsoft 
+    <img alt="not found" src={nsit} width="25"  
+    />     Training and Placement Cell, NSUT
     </i>,
-  
-    "Web Development Intern",
-    
-  ),
-  
+    "Placement Coordinator",
+  )
 ];
 
 // function preventDefault(event) {
@@ -53,13 +48,13 @@ const rows = [
 export default function Experience() {
   return (
     <React.Fragment>
-      <h1 style={{ color: 'white' }}>Experience</h1>
+      <h1 style={{ color: 'black' }}>Experience</h1>
       <Table size="small" >
         <TableHead >
           <TableRow >
-            <TableCell style={{ color: 'grey', fontWeight: 'bolder' }}>Year</TableCell>
-            <TableCell style={{ color: 'grey', fontWeight: 'bolder' }} >Organization</TableCell>
-            <TableCell style={{ color: 'grey', fontWeight: 'bolder' }} >Role</TableCell>
+            <TableCell style={{ color: 'black', fontWeight: 'bolder' }}>Year</TableCell>
+            <TableCell style={{ color: 'black', fontWeight: 'bolder' }} >Organization</TableCell>
+            <TableCell style={{ color: 'black', fontWeight: 'bolder' }} >Role</TableCell>
             </TableRow>
         </TableHead>
         <TableBody >
